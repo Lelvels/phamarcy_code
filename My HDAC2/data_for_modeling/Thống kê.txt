@@ -1,0 +1,211 @@
+2023-04-10 11:37:35.139 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: GET id: 60951, with data: {"pH": 8.1, "TDS": 102, "nhietdo": 22.8}
+2023-04-10 11:37:44.833 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: GET id: 60952, with data: {"pH": 8.3, "TDS": 102, "nhietdo": 22.8}
+2023-04-10 11:37:54.935 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: GET id: 60953, with data: {"pH": 8.3, "TDS": 102, "nhietdo": 22.8}
+2023-04-10 11:38:04.927 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: GET id: 60954, with data: {"pH": 8.3, "TDS": 102, "nhietdo": 22.8}
+2023-04-10 11:38:14.848 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: GET id: 60955, with data: {"pH": 8.4, "TDS": 102, "nhietdo": 22.8}
+2023-04-10 11:38:24.998 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: GET id: 60956, with data: {"pH": 8.4, "TDS": 102, "nhietdo": 22.8}
+2023-04-10 11:38:34.928 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: GET id: 60957, with data: {"pH": 8.4, "TDS": 102, "nhietdo": 22.9}
+2023-04-10 11:38:44.843 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: GET id: 60958, with data: {"pH": 8.4, "TDS": 102, "nhietdo": 22.8}
+2023-04-10 11:38:54.918 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: GET id: 60959, with data: {"pH": 8.4, "TDS": 102, "nhietdo": 22.8}
+2023-04-10 11:39:05.339 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: GET id: 60960, with data: {"pH": 8.4, "TDS": 102, "nhietdo": 22.8}
+2023-04-10 11:39:14.979 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: GET id: 60961, with data: {"pH": 8.0, "TDS": 102, "nhietdo": 22.8}
+2023-04-10 11:39:24.998 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: GET id: 60962, with data: {"pH": 8.0, "TDS": 102, "nhietdo": 22.8}
+2023-04-10 11:39:34.934 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: GET id: 60963, with data: {"pH": 8.0, "TDS": 102, "nhietdo": 22.8}
+2023-04-10 11:39:45.017 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: GET id: 60964, with data: {"pH": 8.3, "TDS": 102, "nhietdo": 22.9}
+2023-04-10 11:39:54.839 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: GET id: 60965, with data: {"pH": 8.3, "TDS": 102, "nhietdo": 22.8}
+2023-04-10 11:40:04.938 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: GET id: 60966, with data: {"pH": 8.3, "TDS": 102, "nhietdo": 22.8}
+2023-04-10 11:40:15.260 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: GET id: 60967, with data: {"pH": 8.0, "TDS": 102, "nhietdo": 22.9}
+2023-04-10 11:40:25.007 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: GET id: 60968, with data: {"pH": 8.0, "TDS": 102, "nhietdo": 22.9}
+2023-04-10 11:40:34.943 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: GET id: 60969, with data: {"pH": 8.0, "TDS": 102, "nhietdo": 22.8}
+2023-04-10 11:40:45.048 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: GET id: 60970, with data: {"pH": 7.9, "TDS": 102, "nhietdo": 22.8}
+2023-04-10 11:40:54.908 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: GET id: 60971, with data: {"pH": 7.9, "TDS": 102, "nhietdo": 22.8}
+2023-04-10 11:41:04.843 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: GET id: 60972, with data: {"pH": 7.9, "TDS": 102, "nhietdo": 22.8}
+2023-04-10 11:41:14.926 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: GET id: 60973, with data: {"pH": 8.3, "TDS": 102, "nhietdo": 22.8}
+2023-04-10 11:41:24.913 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: GET id: 60974, with data: {"pH": 8.3, "TDS": 102, "nhietdo": 22.9}
+2023-04-10 11:41:34.945 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: GET id: 60975, with data: {"pH": 8.3, "TDS": 102, "nhietdo": 22.8}
+2023-04-10 11:41:44.871 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: GET id: 60976, with data: {"pH": 8.4, "TDS": 102, "nhietdo": 22.8}
+2023-04-10 11:45:51.972 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: GET id: 61001, with data: {"pH": 8.3, "TDS": 102, "nhietdo": 22.8}
+2023-04-10 11:46:02.007 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: GET id: 61002, with data: {"pH": 8.3, "TDS": 102, "nhietdo": 22.8}
+2023-04-10 11:46:12.214 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: GET id: 61003, with data: {"pH": 8.7, "TDS": 102, "nhietdo": 22.8}
+2023-04-10 11:46:21.976 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: GET id: 61004, with data: {"pH": 8.7, "TDS": 102, "nhietdo": 22.9}
+2023-04-10 11:48:11.530 11174-28330 okhttp.OkHttpClient     pro.aquaiot.aquablue                 I  --> GET https://aqua-iot.pro/api/v1/sensordatas?deviceId[eq]=7&latest=true
+2023-04-10 11:48:11.530 11174-28334 okhttp.OkHttpClient     pro.aquaiot.aquablue                 I  --> GET https://aqua-iot.pro/api/v1/devices/7
+2023-04-10 11:48:11.577 11174-28334 okhttp.OkHttpClient     pro.aquaiot.aquablue                 I  <-- 200 OK https://aqua-iot.pro/api/v1/devices/7 (46ms, unknown-length body)
+2023-04-10 11:48:11.582 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: Connection state: Connected
+2023-04-10 11:48:11.582 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: Update connection state: Connected
+2023-04-10 11:48:11.582 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: Setting wifi icon to connected
+2023-04-10 11:48:11.583 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: update Latest Desired:{"heater": true, "chiller": true, "autoMode": true, "setTemper": 24}
+2023-04-10 11:48:11.948 11174-28330 okhttp.OkHttpClient     pro.aquaiot.aquablue                 I  <-- 200 OK https://aqua-iot.pro/api/v1/sensordatas?deviceId[eq]=7&latest=true (417ms, unknown-length body)
+2023-04-10 11:48:11.953 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: GET id: 61015, with data: {"pH": 8.4, "TDS": 102, "nhietdo": 22.9}
+2023-04-10 11:48:21.531 11174-28330 okhttp.OkHttpClient     pro.aquaiot.aquablue                 I  --> GET https://aqua-iot.pro/api/v1/sensordatas?deviceId[eq]=7&latest=true
+2023-04-10 11:48:21.531 11174-28334 okhttp.OkHttpClient     pro.aquaiot.aquablue                 I  --> GET https://aqua-iot.pro/api/v1/devices/7
+2023-04-10 11:48:21.588 11174-28334 okhttp.OkHttpClient     pro.aquaiot.aquablue                 I  <-- 200 OK https://aqua-iot.pro/api/v1/devices/7 (56ms, unknown-length body)
+2023-04-10 11:48:21.592 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: Connection state: Connected
+2023-04-10 11:48:21.592 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: Update connection state: Connected
+2023-04-10 11:48:21.593 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: Setting wifi icon to connected
+2023-04-10 11:48:21.593 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: update Latest Desired:{"heater": true, "chiller": true, "autoMode": true, "setTemper": 24}
+2023-04-10 11:48:21.984 11174-28330 okhttp.OkHttpClient     pro.aquaiot.aquablue                 I  <-- 200 OK https://aqua-iot.pro/api/v1/sensordatas?deviceId[eq]=7&latest=true (452ms, unknown-length body)
+2023-04-10 11:48:21.988 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: GET id: 61016, with data: {"pH": 8.4, "TDS": 102, "nhietdo": 22.8}
+2023-04-10 11:48:31.532 11174-28330 okhttp.OkHttpClient     pro.aquaiot.aquablue                 I  --> GET https://aqua-iot.pro/api/v1/sensordatas?deviceId[eq]=7&latest=true
+2023-04-10 11:48:31.536 11174-28334 okhttp.OkHttpClient     pro.aquaiot.aquablue                 I  --> GET https://aqua-iot.pro/api/v1/devices/7
+2023-04-10 11:48:31.592 11174-28334 okhttp.OkHttpClient     pro.aquaiot.aquablue                 I  <-- 200 OK https://aqua-iot.pro/api/v1/devices/7 (55ms, unknown-length body)
+2023-04-10 11:48:31.595 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: Connection state: Connected
+2023-04-10 11:48:31.595 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: Update connection state: Connected
+2023-04-10 11:48:31.595 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: Setting wifi icon to connected
+2023-04-10 11:48:31.596 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: update Latest Desired:{"heater": true, "chiller": true, "autoMode": true, "setTemper": 24}
+2023-04-10 11:48:32.038 11174-28330 okhttp.OkHttpClient     pro.aquaiot.aquablue                 I  <-- 200 OK https://aqua-iot.pro/api/v1/sensordatas?deviceId[eq]=7&latest=true (504ms, unknown-length body)
+2023-04-10 11:48:32.042 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: GET id: 61017, with data: {"pH": 8.4, "TDS": 102, "nhietdo": 22.8}
+2023-04-10 11:48:41.532 11174-28330 okhttp.OkHttpClient     pro.aquaiot.aquablue                 I  --> GET https://aqua-iot.pro/api/v1/sensordatas?deviceId[eq]=7&latest=true
+2023-04-10 11:48:41.535 11174-28334 okhttp.OkHttpClient     pro.aquaiot.aquablue                 I  --> GET https://aqua-iot.pro/api/v1/devices/7
+2023-04-10 11:48:41.604 11174-28334 okhttp.OkHttpClient     pro.aquaiot.aquablue                 I  <-- 200 OK https://aqua-iot.pro/api/v1/devices/7 (68ms, unknown-length body)
+2023-04-10 11:48:41.607 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: Connection state: Connected
+2023-04-10 11:48:41.607 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: Update connection state: Connected
+2023-04-10 11:48:41.608 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: Setting wifi icon to connected
+2023-04-10 11:48:41.609 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: update Latest Desired:{"heater": true, "chiller": true, "autoMode": true, "setTemper": 24}
+2023-04-10 11:48:41.950 11174-28330 okhttp.OkHttpClient     pro.aquaiot.aquablue                 I  <-- 200 OK https://aqua-iot.pro/api/v1/sensordatas?deviceId[eq]=7&latest=true (417ms, unknown-length body)
+2023-04-10 11:48:41.953 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: GET id: 61018, with data: {"pH": 8.6, "TDS": 102, "nhietdo": 22.8}
+2023-04-10 11:48:51.532 11174-28330 okhttp.OkHttpClient     pro.aquaiot.aquablue                 I  --> GET https://aqua-iot.pro/api/v1/sensordatas?deviceId[eq]=7&latest=true
+2023-04-10 11:48:51.534 11174-28334 okhttp.OkHttpClient     pro.aquaiot.aquablue                 I  --> GET https://aqua-iot.pro/api/v1/devices/7
+2023-04-10 11:48:51.577 11174-28334 okhttp.OkHttpClient     pro.aquaiot.aquablue                 I  <-- 200 OK https://aqua-iot.pro/api/v1/devices/7 (43ms, unknown-length body)
+2023-04-10 11:48:51.580 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: Connection state: Connected
+2023-04-10 11:48:51.580 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: Update connection state: Connected
+2023-04-10 11:48:51.580 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: Setting wifi icon to connected
+2023-04-10 11:48:51.580 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: update Latest Desired:{"heater": true, "chiller": true, "autoMode": true, "setTemper": 24}
+2023-04-10 11:48:51.987 11174-28330 okhttp.OkHttpClient     pro.aquaiot.aquablue                 I  <-- 200 OK https://aqua-iot.pro/api/v1/sensordatas?deviceId[eq]=7&latest=true (454ms, unknown-length body)
+2023-04-10 11:48:51.990 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: GET id: 61019, with data: {"pH": 8.6, "TDS": 102, "nhietdo": 22.8}
+2023-04-10 11:49:01.535 11174-28330 okhttp.OkHttpClient     pro.aquaiot.aquablue                 I  --> GET https://aqua-iot.pro/api/v1/sensordatas?deviceId[eq]=7&latest=true
+2023-04-10 11:49:01.535 11174-28334 okhttp.OkHttpClient     pro.aquaiot.aquablue                 I  --> GET https://aqua-iot.pro/api/v1/devices/7
+2023-04-10 11:49:01.589 11174-28334 okhttp.OkHttpClient     pro.aquaiot.aquablue                 I  <-- 200 OK https://aqua-iot.pro/api/v1/devices/7 (53ms, unknown-length body)
+2023-04-10 11:49:01.593 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: Connection state: Connected
+2023-04-10 11:49:01.594 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: Update connection state: Connected
+2023-04-10 11:49:01.594 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: Setting wifi icon to connected
+2023-04-10 11:49:01.595 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: update Latest Desired:{"heater": true, "chiller": true, "autoMode": true, "setTemper": 24}
+2023-04-10 11:49:02.304 11174-28330 okhttp.OkHttpClient     pro.aquaiot.aquablue                 I  <-- 200 OK https://aqua-iot.pro/api/v1/sensordatas?deviceId[eq]=7&latest=true (767ms, unknown-length body)
+2023-04-10 11:49:02.309 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: GET id: 61020, with data: {"pH": 8.6, "TDS": 102, "nhietdo": 22.8}
+2023-04-10 11:49:11.536 11174-28330 okhttp.OkHttpClient     pro.aquaiot.aquablue                 I  --> GET https://aqua-iot.pro/api/v1/sensordatas?deviceId[eq]=7&latest=true
+2023-04-10 11:49:11.536 11174-28334 okhttp.OkHttpClient     pro.aquaiot.aquablue                 I  --> GET https://aqua-iot.pro/api/v1/devices/7
+2023-04-10 11:49:11.601 11174-28334 okhttp.OkHttpClient     pro.aquaiot.aquablue                 I  <-- 200 OK https://aqua-iot.pro/api/v1/devices/7 (64ms, unknown-length body)
+2023-04-10 11:49:11.605 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: Connection state: Connected
+2023-04-10 11:49:11.605 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: Update connection state: Connected
+2023-04-10 11:49:11.606 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: Setting wifi icon to connected
+2023-04-10 11:49:11.606 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: update Latest Desired:{"heater": true, "chiller": true, "autoMode": true, "setTemper": 24}
+2023-04-10 11:49:11.949 11174-28330 okhttp.OkHttpClient     pro.aquaiot.aquablue                 I  <-- 200 OK https://aqua-iot.pro/api/v1/sensordatas?deviceId[eq]=7&latest=true (413ms, unknown-length body)
+2023-04-10 11:49:11.954 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: GET id: 61021, with data: {"pH": 7.9, "TDS": 102, "nhietdo": 22.8}
+2023-04-10 11:49:21.537 11174-28330 okhttp.OkHttpClient     pro.aquaiot.aquablue                 I  --> GET https://aqua-iot.pro/api/v1/sensordatas?deviceId[eq]=7&latest=true
+2023-04-10 11:49:21.537 11174-28334 okhttp.OkHttpClient     pro.aquaiot.aquablue                 I  --> GET https://aqua-iot.pro/api/v1/devices/7
+2023-04-10 11:49:21.609 11174-28334 okhttp.OkHttpClient     pro.aquaiot.aquablue                 I  <-- 200 OK https://aqua-iot.pro/api/v1/devices/7 (71ms, unknown-length body)
+2023-04-10 11:49:21.613 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: Connection state: Connected
+2023-04-10 11:49:21.613 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: Update connection state: Connected
+2023-04-10 11:49:21.613 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: Setting wifi icon to connected
+2023-04-10 11:49:21.614 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: update Latest Desired:{"heater": true, "chiller": true, "autoMode": true, "setTemper": 24}
+2023-04-10 11:49:21.992 11174-28330 okhttp.OkHttpClient     pro.aquaiot.aquablue                 I  <-- 200 OK https://aqua-iot.pro/api/v1/sensordatas?deviceId[eq]=7&latest=true (454ms, unknown-length body)
+2023-04-10 11:49:21.996 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: GET id: 61022, with data: {"pH": 7.9, "TDS": 102, "nhietdo": 22.8}
+2023-04-10 11:49:31.538 11174-28330 okhttp.OkHttpClient     pro.aquaiot.aquablue                 I  --> GET https://aqua-iot.pro/api/v1/sensordatas?deviceId[eq]=7&latest=true
+2023-04-10 11:49:31.538 11174-28334 okhttp.OkHttpClient     pro.aquaiot.aquablue                 I  --> GET https://aqua-iot.pro/api/v1/devices/7
+2023-04-10 11:49:31.658 11174-28334 okhttp.OkHttpClient     pro.aquaiot.aquablue                 I  <-- 200 OK https://aqua-iot.pro/api/v1/devices/7 (119ms, unknown-length body)
+2023-04-10 11:49:31.662 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: Connection state: Connected
+2023-04-10 11:49:31.662 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: Update connection state: Connected
+2023-04-10 11:49:31.662 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: Setting wifi icon to connected
+2023-04-10 11:49:31.663 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: update Latest Desired:{"heater": true, "chiller": true, "autoMode": true, "setTemper": 24}
+2023-04-10 11:49:32.060 11174-28330 okhttp.OkHttpClient     pro.aquaiot.aquablue                 I  <-- 200 OK https://aqua-iot.pro/api/v1/sensordatas?deviceId[eq]=7&latest=true (521ms, unknown-length body)
+2023-04-10 11:49:32.065 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: GET id: 61023, with data: {"pH": 7.9, "TDS": 102, "nhietdo": 22.9}
+2023-04-10 11:49:41.538 11174-28330 okhttp.OkHttpClient     pro.aquaiot.aquablue                 I  --> GET https://aqua-iot.pro/api/v1/sensordatas?deviceId[eq]=7&latest=true
+2023-04-10 11:49:41.539 11174-28334 okhttp.OkHttpClient     pro.aquaiot.aquablue                 I  --> GET https://aqua-iot.pro/api/v1/devices/7
+2023-04-10 11:49:41.650 11174-28334 okhttp.OkHttpClient     pro.aquaiot.aquablue                 I  <-- 200 OK https://aqua-iot.pro/api/v1/devices/7 (110ms, unknown-length body)
+2023-04-10 11:49:41.653 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: Connection state: Connected
+2023-04-10 11:49:41.653 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: Update connection state: Connected
+2023-04-10 11:49:41.654 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: Setting wifi icon to connected
+2023-04-10 11:49:41.655 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: update Latest Desired:{"heater": true, "chiller": true, "autoMode": true, "setTemper": 24}
+2023-04-10 11:49:41.959 11174-28330 okhttp.OkHttpClient     pro.aquaiot.aquablue                 I  <-- 200 OK https://aqua-iot.pro/api/v1/sensordatas?deviceId[eq]=7&latest=true (419ms, unknown-length body)
+2023-04-10 11:49:41.963 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: GET id: 61024, with data: {"pH": 8.5, "TDS": 102, "nhietdo": 22.8}
+2023-04-10 11:49:51.540 11174-28330 okhttp.OkHttpClient     pro.aquaiot.aquablue                 I  --> GET https://aqua-iot.pro/api/v1/sensordatas?deviceId[eq]=7&latest=true
+2023-04-10 11:49:51.541 11174-28334 okhttp.OkHttpClient     pro.aquaiot.aquablue                 I  --> GET https://aqua-iot.pro/api/v1/devices/7
+2023-04-10 11:49:51.589 11174-28334 okhttp.OkHttpClient     pro.aquaiot.aquablue                 I  <-- 200 OK https://aqua-iot.pro/api/v1/devices/7 (48ms, unknown-length body)
+2023-04-10 11:49:51.593 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: Connection state: Connected
+2023-04-10 11:49:51.593 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: Update connection state: Connected
+2023-04-10 11:49:51.593 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: Setting wifi icon to connected
+2023-04-10 11:49:51.594 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: update Latest Desired:{"heater": true, "chiller": true, "autoMode": true, "setTemper": 24}
+2023-04-10 11:49:51.992 11174-28330 okhttp.OkHttpClient     pro.aquaiot.aquablue                 I  <-- 200 OK https://aqua-iot.pro/api/v1/sensordatas?deviceId[eq]=7&latest=true (451ms, unknown-length body)
+2023-04-10 11:49:51.996 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: GET id: 61025, with data: {"pH": 8.5, "TDS": 102, "nhietdo": 22.8}
+2023-04-10 11:50:01.539 11174-28330 okhttp.OkHttpClient     pro.aquaiot.aquablue                 I  --> GET https://aqua-iot.pro/api/v1/sensordatas?deviceId[eq]=7&latest=true
+2023-04-10 11:50:01.539 11174-28334 okhttp.OkHttpClient     pro.aquaiot.aquablue                 I  --> GET https://aqua-iot.pro/api/v1/devices/7
+2023-04-10 11:50:01.719 11174-28334 okhttp.OkHttpClient     pro.aquaiot.aquablue                 I  <-- 200 OK https://aqua-iot.pro/api/v1/devices/7 (179ms, unknown-length body)
+2023-04-10 11:50:01.721 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: Connection state: Connected
+2023-04-10 11:50:01.722 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: Update connection state: Connected
+2023-04-10 11:50:01.722 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: Setting wifi icon to connected
+2023-04-10 11:50:01.722 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: update Latest Desired:{"heater": true, "chiller": true, "autoMode": true, "setTemper": 24}
+2023-04-10 11:50:02.026 11174-28330 okhttp.OkHttpClient     pro.aquaiot.aquablue                 I  <-- 200 OK https://aqua-iot.pro/api/v1/sensordatas?deviceId[eq]=7&latest=true (486ms, unknown-length body)
+2023-04-10 11:50:02.029 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: GET id: 61026, with data: {"pH": 8.5, "TDS": 102, "nhietdo": 22.8}
+2023-04-10 11:50:11.540 11174-28330 okhttp.OkHttpClient     pro.aquaiot.aquablue                 I  --> GET https://aqua-iot.pro/api/v1/sensordatas?deviceId[eq]=7&latest=true
+2023-04-10 11:50:11.541 11174-28334 okhttp.OkHttpClient     pro.aquaiot.aquablue                 I  --> GET https://aqua-iot.pro/api/v1/devices/7
+2023-04-10 11:50:11.626 11174-28334 okhttp.OkHttpClient     pro.aquaiot.aquablue                 I  <-- 200 OK https://aqua-iot.pro/api/v1/devices/7 (84ms, unknown-length body)
+2023-04-10 11:50:11.629 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: Connection state: Connected
+2023-04-10 11:50:11.629 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: Update connection state: Connected
+2023-04-10 11:50:11.630 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: Setting wifi icon to connected
+2023-04-10 11:50:11.630 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: update Latest Desired:{"heater": true, "chiller": true, "autoMode": true, "setTemper": 24}
+2023-04-10 11:50:12.060 11174-28330 okhttp.OkHttpClient     pro.aquaiot.aquablue                 I  <-- 200 OK https://aqua-iot.pro/api/v1/sensordatas?deviceId[eq]=7&latest=true (518ms, unknown-length body)
+2023-04-10 11:50:12.064 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: GET id: 61027, with data: {"pH": 8.8, "TDS": 102, "nhietdo": 22.9}
+2023-04-10 11:50:21.541 11174-28330 okhttp.OkHttpClient     pro.aquaiot.aquablue                 I  --> GET https://aqua-iot.pro/api/v1/sensordatas?deviceId[eq]=7&latest=true
+2023-04-10 11:50:21.541 11174-28334 okhttp.OkHttpClient     pro.aquaiot.aquablue                 I  --> GET https://aqua-iot.pro/api/v1/devices/7
+2023-04-10 11:50:21.586 11174-28334 okhttp.OkHttpClient     pro.aquaiot.aquablue                 I  <-- 200 OK https://aqua-iot.pro/api/v1/devices/7 (45ms, unknown-length body)
+2023-04-10 11:50:21.590 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: Connection state: Connected
+2023-04-10 11:50:21.590 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: Update connection state: Connected
+2023-04-10 11:50:21.590 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: Setting wifi icon to connected
+2023-04-10 11:50:21.591 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: update Latest Desired:{"heater": true, "chiller": true, "autoMode": true, "setTemper": 24}
+2023-04-10 11:50:21.994 11174-28330 okhttp.OkHttpClient     pro.aquaiot.aquablue                 I  <-- 200 OK https://aqua-iot.pro/api/v1/sensordatas?deviceId[eq]=7&latest=true (452ms, unknown-length body)
+2023-04-10 11:50:21.996 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: GET id: 61028, with data: {"pH": 8.8, "TDS": 102, "nhietdo": 22.8}
+2023-04-10 11:50:31.541 11174-28330 okhttp.OkHttpClient     pro.aquaiot.aquablue                 I  --> GET https://aqua-iot.pro/api/v1/sensordatas?deviceId[eq]=7&latest=true
+2023-04-10 11:50:31.542 11174-28334 okhttp.OkHttpClient     pro.aquaiot.aquablue                 I  --> GET https://aqua-iot.pro/api/v1/devices/7
+2023-04-10 11:50:31.575 11174-28334 okhttp.OkHttpClient     pro.aquaiot.aquablue                 I  <-- 200 OK https://aqua-iot.pro/api/v1/devices/7 (33ms, unknown-length body)
+2023-04-10 11:50:31.579 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: Connection state: Connected
+2023-04-10 11:50:31.579 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: Update connection state: Connected
+2023-04-10 11:50:31.579 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: Setting wifi icon to connected
+2023-04-10 11:50:31.580 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: update Latest Desired:{"heater": true, "chiller": true, "autoMode": true, "setTemper": 24}
+2023-04-10 11:50:32.111 11174-28330 okhttp.OkHttpClient     pro.aquaiot.aquablue                 I  <-- 200 OK https://aqua-iot.pro/api/v1/sensordatas?deviceId[eq]=7&latest=true (569ms, unknown-length body)
+2023-04-10 11:50:32.115 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: GET id: 61029, with data: {"pH": 8.8, "TDS": 102, "nhietdo": 22.9}
+2023-04-10 11:50:41.541 11174-28330 okhttp.OkHttpClient     pro.aquaiot.aquablue                 I  --> GET https://aqua-iot.pro/api/v1/sensordatas?deviceId[eq]=7&latest=true
+2023-04-10 11:50:41.541 11174-28334 okhttp.OkHttpClient     pro.aquaiot.aquablue                 I  --> GET https://aqua-iot.pro/api/v1/devices/7
+2023-04-10 11:50:41.599 11174-28334 okhttp.OkHttpClient     pro.aquaiot.aquablue                 I  <-- 200 OK https://aqua-iot.pro/api/v1/devices/7 (57ms, unknown-length body)
+2023-04-10 11:50:41.602 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: Connection state: Connected
+2023-04-10 11:50:41.602 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: Update connection state: Connected
+2023-04-10 11:50:41.602 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: Setting wifi icon to connected
+2023-04-10 11:50:41.603 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: update Latest Desired:{"heater": true, "chiller": true, "autoMode": true, "setTemper": 24}
+2023-04-10 11:50:42.065 11174-28330 okhttp.OkHttpClient     pro.aquaiot.aquablue                 I  <-- 200 OK https://aqua-iot.pro/api/v1/sensordatas?deviceId[eq]=7&latest=true (524ms, unknown-length body)
+2023-04-10 11:50:42.069 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: GET id: 61030, with data: {"pH": 8.4, "TDS": 102, "nhietdo": 22.9}
+2023-04-10 11:50:51.923 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: GET id: 61031, with data: {"pH": 8.4, "TDS": 102, "nhietdo": 22.9}
+2023-04-10 11:51:01.544 11174-28330 okhttp.OkHttpClient     pro.aquaiot.aquablue                 I  --> GET https://aqua-iot.pro/api/v1/sensordatas?deviceId[eq]=7&latest=true
+2023-04-10 11:51:01.544 11174-28334 okhttp.OkHttpClient     pro.aquaiot.aquablue                 I  --> GET https://aqua-iot.pro/api/v1/devices/7
+2023-04-10 11:51:01.728 11174-28334 okhttp.OkHttpClient     pro.aquaiot.aquablue                 I  <-- 200 OK https://aqua-iot.pro/api/v1/devices/7 (183ms, unknown-length body)
+2023-04-10 11:51:01.732 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: Connection state: Connected
+2023-04-10 11:51:01.732 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: Update connection state: Connected
+2023-04-10 11:51:01.732 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: Setting wifi icon to connected
+2023-04-10 11:51:01.733 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: update Latest Desired:{"heater": true, "chiller": true, "autoMode": true, "setTemper": 24}
+2023-04-10 11:51:02.290 11174-28330 okhttp.OkHttpClient     pro.aquaiot.aquablue                 I  <-- 200 OK https://aqua-iot.pro/api/v1/sensordatas?deviceId[eq]=7&latest=true (745ms, unknown-length body)
+2023-04-10 11:51:02.294 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: GET id: 61032, with data: {"pH": 8.4, "TDS": 102, "nhietdo": 22.9}
+2023-04-10 11:51:11.543 11174-28334 okhttp.OkHttpClient     pro.aquaiot.aquablue                 I  --> GET https://aqua-iot.pro/api/v1/devices/7
+2023-04-10 11:51:11.543 11174-28330 okhttp.OkHttpClient     pro.aquaiot.aquablue                 I  --> GET https://aqua-iot.pro/api/v1/sensordatas?deviceId[eq]=7&latest=true
+2023-04-10 11:51:11.589 11174-28334 okhttp.OkHttpClient     pro.aquaiot.aquablue                 I  <-- 200 OK https://aqua-iot.pro/api/v1/devices/7 (45ms, unknown-length body)
+2023-04-10 11:51:11.591 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: Connection state: Connected
+2023-04-10 11:51:11.591 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: Update connection state: Connected
+2023-04-10 11:51:11.591 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: Setting wifi icon to connected
+2023-04-10 11:51:11.592 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: update Latest Desired:{"heater": true, "chiller": true, "autoMode": true, "setTemper": 24}
+2023-04-10 11:51:11.965 11174-28330 okhttp.OkHttpClient     pro.aquaiot.aquablue                 I  <-- 200 OK https://aqua-iot.pro/api/v1/sensordatas?deviceId[eq]=7&latest=true (421ms, unknown-length body)
+2023-04-10 11:51:11.968 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: GET id: 61033, with data: {"pH": 8.2, "TDS": 102, "nhietdo": 22.8}
+2023-04-10 11:51:21.544 11174-28330 okhttp.OkHttpClient     pro.aquaiot.aquablue                 I  --> GET https://aqua-iot.pro/api/v1/sensordatas?deviceId[eq]=7&latest=true
+2023-04-10 11:51:21.544 11174-28334 okhttp.OkHttpClient     pro.aquaiot.aquablue                 I  --> GET https://aqua-iot.pro/api/v1/devices/7
+2023-04-10 11:51:21.592 11174-28334 okhttp.OkHttpClient     pro.aquaiot.aquablue                 I  <-- 200 OK https://aqua-iot.pro/api/v1/devices/7 (47ms, unknown-length body)
+2023-04-10 11:51:21.594 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: Connection state: Connected
+2023-04-10 11:51:21.594 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: Update connection state: Connected
+2023-04-10 11:51:21.595 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: Setting wifi icon to connected
+2023-04-10 11:51:21.595 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: update Latest Desired:{"heater": true, "chiller": true, "autoMode": true, "setTemper": 24}
+2023-04-10 11:51:22.001 11174-28330 okhttp.OkHttpClient     pro.aquaiot.aquablue                 I  <-- 200 OK https://aqua-iot.pro/api/v1/sensordatas?deviceId[eq]=7&latest=true (456ms, unknown-length body)
+2023-04-10 11:51:22.004 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: GET id: 61034, with data: {"pH": 8.2, "TDS": 102, "nhietdo": 22.9}
+2023-04-10 11:51:31.547 11174-28334 okhttp.OkHttpClient     pro.aquaiot.aquablue                 I  --> GET https://aqua-iot.pro/api/v1/devices/7
+2023-04-10 11:51:31.547 11174-28330 okhttp.OkHttpClient     pro.aquaiot.aquablue                 I  --> GET https://aqua-iot.pro/api/v1/sensordatas?deviceId[eq]=7&latest=true
+2023-04-10 11:51:31.598 11174-28334 okhttp.OkHttpClient     pro.aquaiot.aquablue                 I  <-- 200 OK https://aqua-iot.pro/api/v1/devices/7 (50ms, unknown-length body)
+2023-04-10 11:51:31.602 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: Connection state: Connected
+2023-04-10 11:51:31.602 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: Update connection state: Connected
+2023-04-10 11:51:31.602 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: Setting wifi icon to connected
+2023-04-10 11:51:31.603 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: update Latest Desired:{"heater": true, "chiller": true, "autoMode": true, "setTemper": 24}
+2023-04-10 11:51:32.035 11174-28330 okhttp.OkHttpClient     pro.aquaiot.aquablue                 I  <-- 200 OK https://aqua-iot.pro/api/v1/sensordatas?deviceId[eq]=7&latest=true (488ms, unknown-length body)
+2023-04-10 11:51:32.039 11174-11174 UiControl               pro.aquaiot.aquablue                 I  Message: GET id: 61035, with data: {"pH": 8.2, "TDS": 102, "nhietdo": 22.9}
