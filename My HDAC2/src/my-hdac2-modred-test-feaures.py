@@ -19,14 +19,19 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.svm import SVC
 from xgboost import XGBClassifier
 
+pcc_point = 0.9
 
-
+modred_des_fp = '../output/modred_descriptors_out.xlsx'
+test_dataset_fp = '../data_for_modeling/filter_data/v1/HDAC2_test.csv'
+train_dataset_fp = '../data_for_modeling/filter_data/v1/HDAC2_train.csv'
+features_data_fp = '../output/shapes_and_features/'+str(pcc_point)+"_shapes_and_features.xlsx"
+result_fp = "../output/model_result/"+str(pcc_point)+"_Ket qua danh gia mo hinh HDAC2.xlsx"
 
 def get_train_test_modred_des():
     # read from file
-    print("[+] Read modred descriptors:")
-    train_modred_descriptors = pd.read_excel('../output/modred_descriptors_out.xlsx', sheet_name="train_modred_descriptors")
-    test_mordred_descriptors = pd.read_excel('../output/modred_descriptors_out.xlsx', sheet_name="test_modred_descriptor")
+    print("[+] Read modred descriptors for HDAC2 " + modred_des_fp)
+    train_modred_descriptors = pd.read_excel(modred_des_fp, sheet_name="train_modred_descriptors")
+    test_mordred_descriptors = pd.read_excel(modred_des_fp, sheet_name="test_modred_descriptor")
     train_modred_descriptors = pd.DataFrame(train_modred_descriptors)
     test_mordred_descriptors = pd.DataFrame(test_mordred_descriptors)
     #filter data
@@ -39,7 +44,6 @@ def get_train_test_modred_des():
     for (row, col), value in np.ndenumerate(test_np):
         if not (value.__class__ in [int, float, np.float64, np.float32, np.int64, np.int32]):
             test_np[row, col] = 0
-    
     train_modred_descriptors = pd.DataFrame(train_np, columns=train_modred_descriptors.columns)
     test_mordred_descriptors = pd.DataFrame(test_np, columns=test_mordred_descriptors.columns)
     all_mordred_descriptors = pd.concat([test_mordred_descriptors, train_modred_descriptors], ignore_index=False)
@@ -47,9 +51,9 @@ def get_train_test_modred_des():
     return train_modred_descriptors, test_mordred_descriptors, all_mordred_descriptors
 
 def get_train_test_y():
-    print("[+] Getting y data:")
-    test_dataset = pd.read_csv("../data_for_modeling/filter_data/v1/HDAC2_test.csv")
-    train_dataset = pd.read_csv("../data_for_modeling/filter_data/v1/HDAC2_train.csv")
+    print("[+] Getting y data")
+    test_dataset = pd.read_csv(test_dataset_fp)
+    train_dataset = pd.read_csv(train_dataset_fp)
     y_train = np.array(train_dataset['FINAL_LABEL'])
     y_test = np.array(test_dataset['FINAL_LABEL'])
     y_all = np.append(y_train, y_test)
@@ -57,8 +61,8 @@ def get_train_test_y():
     return y_train, y_test, y_all
 
 def get_features_list():
-    print("[+] Getting feature list:")
-    features_data = pd.read_excel('../output/shapes_and_features.xlsx', sheet_name='Sheet1')
+    print("[+] Getting feature list from " + features_data_fp)
+    features_data = pd.read_excel(features_data_fp, sheet_name='Sheet1')
     features_strings = features_data['Features']
     list_of_features = []
     for features_string in features_strings:
@@ -89,7 +93,9 @@ def model_evaluation(model, X_train, y_train, X_test, y_test):
     y_pred = model.predict(X_test)
     cm = confusion_matrix(y_test, y_pred)
     ac, se, sp, mcc = model_evaluation_calculation(cm)
-    auc_score = roc_auc_score(y_test, y_pred)
+    #auc
+    y_proba = model.predict_proba(X_test)[:, 1]
+    auc_score = roc_auc_score(y_test, y_proba)
     return ten_cv_ac, ac, se, sp, mcc, auc_score
     
 
@@ -100,7 +106,7 @@ def knn_evaluation(X_train, y_train, X_test, y_test):
     return ten_cv_ac, ac, se, sp, mcc, auc_score
 
 def svm_evaluation(X_train, y_train, X_test, y_test):
-    svm_des = SVC(kernel='rbf', random_state=0)
+    svm_des = SVC(kernel='rbf', probability=True, random_state=0)
     svm_des.fit(X_train, y_train)
     ten_cv_ac, ac, se, sp, mcc, auc_score = model_evaluation(svm_des, X_train, y_train, X_test, y_test)
     return ten_cv_ac, ac, se, sp, mcc, auc_score
@@ -208,7 +214,7 @@ def main():
         else:
             print("[+] Skip with " + str(features_number))
     #Write this to file
-    print("[+] Write to file")
-    evaluation_df.to_excel("../output/results_table.xlsx", index=False)
+    print("[+] Write to file " + result_fp)
+    evaluation_df.to_excel(result_fp, index=False)
 if __name__ == "__main__":
     main()
