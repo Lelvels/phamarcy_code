@@ -21,7 +21,10 @@ from xgboost import XGBClassifier
 
 train_modred_file_path = "../output/train_modred_des.csv"
 test_modred_file_path = "../output/test_modred_des.csv"
-
+train_dataset_fp = "../data_for_modeling/HDAC3_train.csv"
+test_dataset_fp = "../data_for_modeling/HDAC3_test.csv"
+len_and_features_file_path = '../output/090_shapes_and_features.xlsx'
+output_file = "../output/results_table.xlsx"
 
 def get_train_test_modred_des():
     # read from file
@@ -49,17 +52,17 @@ def get_train_test_modred_des():
 
 def get_train_test_y():
     print("[+] Getting y data:")
-    test_dataset = pd.read_csv("../data_for_modeling/filter_data/v1/HDAC2_test.csv")
-    train_dataset = pd.read_csv("../data_for_modeling/filter_data/v1/HDAC2_train.csv")
-    y_train = np.array(train_dataset['FINAL_LABEL'])
-    y_test = np.array(test_dataset['FINAL_LABEL'])
+    test_dataset = pd.read_csv(test_dataset_fp)
+    train_dataset = pd.read_csv(train_dataset_fp)
+    y_train = np.array(train_dataset['Type'])
+    y_test = np.array(test_dataset['Type'])
     y_all = np.append(y_train, y_test)
     print("[+] Finish getting y data")
     return y_train, y_test, y_all
 
 def get_features_list():
     print("[+] Getting feature list:")
-    features_data = pd.read_excel('../output/shapes_and_features.xlsx', sheet_name='Sheet1')
+    features_data = pd.read_excel(len_and_features_file_path, sheet_name='Sheet1')
     features_strings = features_data['Features']
     list_of_features = []
     for features_string in features_strings:
@@ -90,7 +93,8 @@ def model_evaluation(model, X_train, y_train, X_test, y_test):
     y_pred = model.predict(X_test)
     cm = confusion_matrix(y_test, y_pred)
     ac, se, sp, mcc = model_evaluation_calculation(cm)
-    auc_score = roc_auc_score(y_test, y_pred)
+    y_proba = model.predict_proba(X_test)[:, 1]
+    auc_score = roc_auc_score(y_test, y_proba)
     return ten_cv_ac, ac, se, sp, mcc, auc_score
     
 
@@ -101,7 +105,7 @@ def knn_evaluation(X_train, y_train, X_test, y_test):
     return ten_cv_ac, ac, se, sp, mcc, auc_score
 
 def svm_evaluation(X_train, y_train, X_test, y_test):
-    svm_des = SVC(kernel='rbf', random_state=0)
+    svm_des = SVC(kernel='rbf', probability=True, random_state=0)
     svm_des.fit(X_train, y_train)
     ten_cv_ac, ac, se, sp, mcc, auc_score = model_evaluation(svm_des, X_train, y_train, X_test, y_test)
     return ten_cv_ac, ac, se, sp, mcc, auc_score
@@ -129,6 +133,7 @@ def sc_standard(X_train, X_test, features):
     
 
 def main():
+    print("Working on file: " + len_and_features_file_path)
     train_modred_descriptors, test_mordred_descriptors, _ = get_train_test_modred_des()
     y_train, y_test, _ = get_train_test_y()
     list_of_features = get_features_list()
@@ -209,7 +214,7 @@ def main():
         else:
             print("[+] Skip with " + str(features_number))
     #Write this to file
-    print("[+] Write to file")
-    evaluation_df.to_excel("../output/results_table.xlsx", index=False)
+    print("[+] Write to file " + output_file)
+    evaluation_df.to_excel(output_file, index=False)
 if __name__ == "__main__":
     main()
