@@ -19,13 +19,13 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.svm import SVC
 from xgboost import XGBClassifier
 
-pcc_point = 0.9
+pcc_point = 0.75
 
 modred_des_fp = '../output/modred_descriptors_out.xlsx'
 test_dataset_fp = '../data_for_modeling/filter_data/v1/HDAC2_test.csv'
 train_dataset_fp = '../data_for_modeling/filter_data/v1/HDAC2_train.csv'
-features_data_fp = '../output/shapes_and_features/'+str(pcc_point)+"_shapes_and_features.xlsx"
-result_fp = "../output/model_result/"+str(pcc_point)+"_Ket qua danh gia mo hinh HDAC2.xlsx"
+features_data_fp = '../output/shapes_and_features/'+str(pcc_point)+"_shapes_and_features_with_labels.xlsx"
+result_fp = "../output/model_result/"+str(pcc_point)+"_Ket qua danh gia mo hinh HDAC2_with_labels.xlsx"
 
 def get_train_test_modred_des():
     # read from file
