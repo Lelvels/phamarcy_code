@@ -1,6 +1,5 @@
 from rdkit.Chem import AllChem
 from rdkit import Chem
-from rdkit.Chem import Descriptors, MACCSkeys
 from rdkit.ML.Descriptors import MoleculeDescriptors
 from mordred import Calculator, descriptors
 
@@ -19,36 +18,24 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.svm import SVC
 from xgboost import XGBClassifier
 
+import sklearn.preprocessing as preprocessing
+
 pcc_point = 0.95
+max_iteration = 300
 # modred_descriptors file
-train_modred_des_fp = "../output/modred_des/train_modred_des_unspec_removed(1).csv"
-test_modred_des_fp = "../output/modred_des/test_modred_des_unspec_removed.csv"
+train_modred_des_path = "../../output/modred_des/all_data/unclean_data/unclean_train_modred_descriptors.csv"
+test_modred_des_path = "../../output/modred_des/all_data/unclean_data/unclean_test_modred_descriptors.csv"
 # dataset file path
-train_dataset_fp = '../data_for_modeling/filter_data/v1/HDAC2_train_unspec_removed(1).csv'
-test_dataset_fp = '../data_for_modeling/filter_data/v1/HDAC2_test_unspec_removed.csv'
+train_test_path = "../../data_for_modeling/filter_data/all_data/unclean_data/HDAC2_train_test_unclean_data_all.xlsx"
 # shapes and features file path
-features_data_fp = '../output/shapes_and_features/'+str(pcc_point)+"_shapes_and_features_unspec_removed(1).xlsx"
-result_fp = "../output/model_result/"+str(pcc_point)+"_Ket qua danh gia mo hinh HDAC2_unspec_removed(1).xlsx"
+features_data_fp = '../../output/shapes_and_features/unclean_data/'+str(pcc_point)+"_shapes_and_features.xlsx"
+result_fp = "../../output/model_result/unclean_data/"+str(pcc_point)+"_Ket qua danh gia mo hinh HDAC2.xlsx"
 
 def get_train_test_modred_des():
     # read des from file
-    print("[+] Read modred descriptors for HDAC2, trainset:  " + train_modred_des_fp + ", testset: " + test_modred_des_fp)
-    train_modred_descriptors = pd.read_csv(train_modred_des_fp)
-    test_mordred_descriptors = pd.read_csv(test_modred_des_fp)
-    train_modred_descriptors = pd.DataFrame(train_modred_descriptors)
-    test_mordred_descriptors = pd.DataFrame(test_mordred_descriptors)
-    #filter data
-    train_np = np.array(train_modred_descriptors)
-    test_np = np.array(test_mordred_descriptors)
-    for (row, col), value in np.ndenumerate(train_np):
-        if not (value.__class__ in [int, float, np.float64, np.float32, np.int64, np.int32]):
-            train_np[row, col] = 0
-        
-    for (row, col), value in np.ndenumerate(test_np):
-        if not (value.__class__ in [int, float, np.float64, np.float32, np.int64, np.int32]):
-            test_np[row, col] = 0
-    train_modred_descriptors = pd.DataFrame(train_np, columns=train_modred_descriptors.columns)
-    test_mordred_descriptors = pd.DataFrame(test_np, columns=test_mordred_descriptors.columns)
+    print("[+] Read modred descriptors for HDAC2, trainset:  " + train_modred_des_path + ", testset: " + test_modred_des_path)
+    train_modred_descriptors = pd.read_csv(train_modred_des_path, low_memory=False)
+    test_mordred_descriptors = pd.read_csv(test_modred_des_path, low_memory=False)
     all_mordred_descriptors = pd.concat([test_mordred_descriptors, train_modred_descriptors], ignore_index=False)
     train_shape = train_modred_descriptors.shape
     test_shape = test_mordred_descriptors.shape
@@ -57,13 +44,18 @@ def get_train_test_modred_des():
 
 def get_train_test_y():
     print("[+] Getting y data")
-    test_dataset = pd.read_csv(test_dataset_fp)
-    train_dataset = pd.read_csv(train_dataset_fp)
-    y_train = np.array(train_dataset['FINAL_LABEL'])
-    y_test = np.array(test_dataset['FINAL_LABEL'])
-    y_all = np.append(y_train, y_test)
-    print("[+] Finish getting y data, y train:" + str(len(y_train)) + ", y_test:" + str(len(y_test)))
-    return y_train, y_test, y_all
+    train_dataset = pd.read_excel(train_test_path, sheet_name='train_dataset')
+    test_dataset = pd.read_excel(train_test_path, sheet_name='test_dataset')
+    y_Train = np.array(train_dataset['FINAL_LABEL'])
+    y_Test = np.array(test_dataset['FINAL_LABEL'])
+    
+    #Using label Encoder 
+    y_Train = preprocessing.LabelEncoder().fit_transform(y_Train)
+    y_Test = preprocessing.LabelEncoder().fit_transform(y_Test)
+    y_All = np.append(y_Train, y_Test)
+
+    print("[+] Finish getting y data, y train:" + str(len(y_Train)) + ", y_test:" + str(len(y_Test)))
+    return y_Train, y_Test, y_All
 
 def get_features_list():
     print("[+] Getting feature list from " + features_data_fp)
@@ -153,13 +145,12 @@ def main():
         "Test-set AUC": []
     }
     
-    
     evaluation_df = pd.DataFrame(evaluation_data)
     prev_features_number = 0
     
     for features in list_of_features:
         features_number = len(features)
-        if(features_number != prev_features_number and features_number>0):
+        if(features_number != prev_features_number and features_number>0 and features_number<max_iteration):
             prev_features_number = features_number
             print("[+] Starting evaluation for number " + str(features_number))
             X_train = train_modred_descriptors[features]
